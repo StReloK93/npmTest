@@ -1,0 +1,23 @@
+{
+  "name": "ruzzifer-image-viewer",
+  "version": "1.0.0",
+  "description": "Image Viewer in native html css js",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StReloK93/npmTest.git"
+  },
+  "keywords": [
+    "js",
+    "image-viewer"
+  ],
+  "author": "Ruzzifer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StReloK93/npmTest/issues"
+  },
+  "homepage": "https://github.com/StReloK93/npmTest#readme"
+}

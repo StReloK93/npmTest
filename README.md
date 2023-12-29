@@ -1,0 +1,1 @@
+Readme hali yozilmagan ovora bo'lmayla
