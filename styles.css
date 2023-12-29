@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    padding: 50px;
+    margin: 0;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.image-viewer {
+    /* display: flex;
+    flex-direction: row; */
+    position: relative;
+}
+
+.zoom-image {
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    width: 150px; /* Измените размер изображения по своему усмотрению */
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    transition: .25s;
+    position: absolute;
+}
+
+.mini-images{
+    margin-right: 3px;
+    margin-bottom: 3px;
+    cursor: pointer;
+    position: static;
+}
+
+.zoomed-image {
+    padding-right: 3px;
+    width: 500px;
+    display: flex;
+    overflow: hidden;
+    align-items: baseline;
+    aspect-ratio: 3/2;
+    margin-bottom: 10px;
+}
+
+.active {
+    opacity: 0.5;
+    transform: scale(0.9);
+}
+
+
+.d-flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.image-block{
+    display: flex;
+}
+
+.mb-4{
+    margin-bottom: 5px;
+}
